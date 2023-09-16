@@ -1,0 +1,2 @@
+﻿  11651.cpp
+C:\Users\박형주\Desktop\C, C++\study_solution\11651\11651.cpp(21,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

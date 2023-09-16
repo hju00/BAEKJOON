@@ -1,0 +1,14 @@
+﻿  10814.cpp
+C:\Users\박형주\Desktop\C, C++\study_solution\10814\10814.cpp(24,18): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\박형주\Desktop\C, C++\study_solution\10814\10814.cpp(24,18): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 2개가 제공되었습니다.
+C:\Users\박형주\Desktop\C, C++\study_solution\10814\10814.cpp(24,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7459,45): error C2676: 이항 '-': 'const std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+C:\Users\박형주\Desktop\C, C++\study_solution\10814\10814.cpp(29): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::sort<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>,bool(__cdecl *)(std::pair<int,int>,std::pair<int,int>)>(const _RanIt,const _RanIt,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>,
+              _Pr=bool (__cdecl *)(std::pair<int,int>,std::pair<int,int>)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7459,5): error C2672: '_Sort_unchecked': 일치하는 오버로드된 함수가 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7455,1): error C2780: 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)': 인수가 4개 있어야 하는데 3개를 사용했습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7425): message : 'std::_Sort_unchecked' 선언을 참조하십시오.
